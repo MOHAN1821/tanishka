@@ -1,0 +1,32 @@
+==== HOW TO MAKE THE REAL ANIMATED TELUGU VIDEO ====
+1) Make 3 silent cartoon clips (5-8 sec each) in any AI video tool. Use the SAME character picture as reference so mother/father/baby look the same.
+2) Make Telugu voices from the DIALOGUE below (a tool with Telugu voices, or record family/friends/yourself).
+3) Join clips + voices + Telugu subtitles in CapCut / VN (free). Export MP4, 720p, under 50 MB.
+4) Save as public/amma.mp4, set video:"amma.mp4" in public/config.js, then: git add . ; git commit -m video ; git push
+
+==== CLIP PROMPTS (English, paste into the video tool) ====
+STYLE (add to every prompt): soft 3D animated movie style, warm pastel colours, gentle lighting, stylised cartoon faces (not realistic), tender and peaceful mood, no text on screen.
+
+CLIP 1: A hospital room at sunrise, golden light through the window. A young Indian mother in a pink hospital gown sits in bed holding a newborn baby girl wrapped in a cream blanket. The father stands beside the bed, smiling lovingly. Slow gentle camera push-in.
+CLIP 2: Close-up: the newborn opens her eyes and gives a tiny smile. The mother and father smile and laugh softly, happy tears. Small glowing hearts float up.
+CLIP 3: Slow transition: a calm night sky with one bright glowing star, then it turns into a warm golden sunrise. Peaceful and hopeful.
+
+==== TELUGU DIALOGUE (clips 1-2, parents' voices) ====
+నాన్న: చూడు... మన చిట్టి తల్లి ఎంత అందంగా ఉందో.
+అమ్మ: అవును... తన కళ్ళు చూడు. మన ప్రపంచమంతా ఇప్పుడు ఈ చిన్నారే.
+నాన్న: దీనికి ఏ పేరు పెడదాం?
+అమ్మ: తనిష్క... తనిష్క అని పిలుద్దాం.
+నాన్న: తనిష్క... చాలా బాగుంది.
+(పాప నవ్వు)
+అమ్మ: నువ్వు ఎప్పుడూ నవ్వుతూ ఉండాలి, తనిష్కా.
+
+==== YOUR OWN VOICE (clip 3, record this yourself, slowly) ====
+తనిష్కా... ఆ ప్రేమ ఇప్పటికీ నీతోనే ఉంది.
+నేను తప్పు చేశాను. నా ప్రవర్తన కూడా తప్పే.
+నా అమ్మ మీద ప్రమాణం చేసి చెబుతున్నాను, ఇకపై నిన్ను బాధపెట్టను.
+నన్ను క్షమించు, బంగారం. నాకు నువ్వు కావాలి.
+
+==== NOTES ====
+- Use generic cartoon characters and generic AI voices. Do NOT clone or copy her real parents' faces or voices.
+- Keep the parents' lines only about the baby's birth (as above). Don't make them say anything about you.
+- If you only have a voice recording (no video): save public/naa-matalu.mp3 and set voice:"naa-matalu.mp3".

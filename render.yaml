@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: sorry-tanishka
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /healthz
+    envVars:
+      - key: SECRET
+        generateValue: true
+      - key: USERS
+        sync: false

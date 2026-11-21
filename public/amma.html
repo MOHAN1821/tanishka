@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>తనిష్కా 🕊️</title>
+<meta name="theme-color" content="#1a0f33">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;700&display=swap" rel="stylesheet">
+<style>
+.te{font-family:"Noto Sans Telugu","Nirmala UI",Gautami,sans-serif}
+.tcap{min-height:118px;font-size:clamp(19px,5vw,23px);line-height:1.75;color:#fff6fb;padding:6px 4px;transition:opacity .5s}
+.ctl{display:flex;justify-content:center;gap:10px;align-items:center;flex-wrap:wrap}
+.ctl .btn{margin:0;padding:11px 18px}
+.dots{display:flex;justify-content:center;gap:7px;margin:12px 0}
+.dots i{width:9px;height:9px;border-radius:50%;background:#ffffff30}.dots i.on{background:var(--rose)}
+svg#st{width:100%;max-width:440px;border-radius:22px;border:1px solid #ffffff25;display:block;margin:14px auto;background:#2b1650}
+svg#st .g{opacity:0;transition:opacity 1.4s}
+svg#st[data-s="1"] .room,svg#st[data-s="2"] .room,svg#st[data-s="3"] .room{opacity:1}
+svg#st[data-s="4"] .night,svg#st[data-s="5"] .night{opacity:1}
+svg#st[data-s="6"] .dawn,svg#st[data-s="7"] .dawn,svg#st[data-s="8"] .dawn{opacity:1}
+svg#st .m1{opacity:0}
+svg#st[data-s="2"] .m1,svg#st[data-s="3"] .m1{opacity:1}
+svg#st[data-s="2"] .m0,svg#st[data-s="3"] .m0{opacity:0}
+svg#st .hrt{opacity:0}
+svg#st[data-s="3"] .hrt{opacity:1;animation:fl2 3s ease-out infinite}
+@keyframes fl2{from{transform:translateY(0)}to{transform:translateY(-34px);opacity:0}}
+.tw{animation:tw2 2.4s ease-in-out infinite alternate}@keyframes tw2{from{opacity:.3}to{opacity:1}}
+.pulse{stroke-dasharray:140;animation:pl 2.2s linear infinite}@keyframes pl{from{stroke-dashoffset:140}to{stroke-dashoffset:0}}
+.hasvid svg#st,.hasvid #cap,.hasvid #dots,.hasvid .ctl,.hasvid #vn{display:none}
+.hasvid video{max-width:520px}
+#vn{font-size:15px;color:#e4d4fb;margin-top:10px}
+</style>
+</head>
+<body>
+<a class="btn homebtn" href="index.html">🏠 Menu</a>
+<section class="view on"><div class="in te">
+
+ <div id="gate">
+  <span class="big" style="font-size:62px">🕊️</span>
+  <h2 class="te">తనిష్కా…</h2>
+  <p>నీ అమ్మను కోల్పోయినందుకు నాకు చాలా బాధగా ఉంది.</p>
+  <p>ఇది నీ అమ్మ జ్ఞాపకాల గురించి. నువ్వు సిద్ధంగా ఉన్నప్పుడే చూడు.</p>
+  <button class="btn" id="go">చూస్తాను</button><br>
+  <a class="btn ghost" href="index.html">తర్వాత చూస్తాను</a>
+ </div>
+
+ <div id="stage" class="hide">
+  <svg id="st" viewBox="0 0 400 300" data-s="1" role="img" aria-label="ఆసుపత్రి గదిలో అమ్మ, చిన్నారి తనిష్క">
+   <defs>
+    <linearGradient id="wl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a3a8f"/><stop offset="1" stop-color="#2b1650"/></linearGradient>
+    <linearGradient id="ns" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d0824"/><stop offset="1" stop-color="#2d1a5c"/></linearGradient>
+    <linearGradient id="dw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a3a8f"/><stop offset=".6" stop-color="#ff9ec0"/><stop offset="1" stop-color="#ffd58a"/></linearGradient>
+    <radialGradient id="gl"><stop offset="0" stop-color="#ffe9b0" stop-opacity=".95"/><stop offset="1" stop-color="#ffe9b0" stop-opacity="0"/></radialGradient>
+   </defs>
+   <rect width="400" height="300" fill="url(#wl)"/>
+
+   <g class="g room">
+    <rect x="285" y="26" width="90" height="96" rx="8" fill="#ffd58a" opacity=".55"/>
+    <path d="M330 26v96M285 74h90" stroke="#5a3a8f" stroke-width="4"/>
+    <circle cx="330" cy="74" r="110" fill="url(#gl)"/>
+    <rect x="22" y="40" width="68" height="46" rx="6" fill="#1d1238" stroke="#7a5cc0" stroke-width="3"/>
+    <polyline class="pulse" points="28,64 44,64 50,50 56,78 62,64 84,64" fill="none" stroke="#7dffb0" stroke-width="2.5"/>
+    <rect x="30" y="196" width="340" height="54" rx="12" fill="#efe6ff"/>
+    <rect x="30" y="244" width="340" height="14" rx="4" fill="#7a5cc0"/>
+    <rect x="48" y="164" width="90" height="38" rx="18" fill="#fff"/>
+    <rect x="160" y="200" width="210" height="46" rx="14" fill="#8b6fe0"/>
+    <ellipse cx="150" cy="206" rx="64" ry="28" fill="#f08aa6"/>
+    <path d="M84 150q-4-36 28-36t30 36q-8-18-30-18t-28 18z" fill="#2a1a2e"/>
+    <circle cx="112" cy="152" r="26" fill="#f2c9a0"/>
+    <path d="M86 146q26-34 52 0q-6-22-26-22t-26 22z" fill="#2a1a2e"/>
+    <path d="M100 152q5 4 10 0M118 152q5 4 10 0" stroke="#2a1a2e" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <path d="M104 164q8 7 16 0" stroke="#b23a5a" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    <circle cx="96" cy="160" r="5" fill="#ff9ec0" opacity=".6"/><circle cx="128" cy="160" r="5" fill="#ff9ec0" opacity=".6"/>
+    <path d="M160 198q30 14 62 0" stroke="#f2c9a0" stroke-width="13" fill="none" stroke-linecap="round"/>
+    <ellipse cx="216" cy="190" rx="38" ry="22" fill="#fff6e0"/>
+    <circle cx="196" cy="182" r="16" fill="#f6d3b0"/>
+    <path d="M181 178q15-22 30 0q-15-8-30 0z" fill="#ff9ec0"/>
+    <circle cx="190" cy="183" r="1.8" fill="#2a1a2e"/><circle cx="202" cy="183" r="1.8" fill="#2a1a2e"/>
+    <path class="m0" d="M192 190h8" stroke="#2a1a2e" stroke-width="2" stroke-linecap="round"/>
+    <path class="m1" d="M191 189q5 6 10 0" stroke="#b23a5a" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <text class="hrt" x="150" y="120" font-size="22">💗</text>
+    <text class="hrt" x="196" y="108" font-size="26" style="animation-delay:.8s">💖</text>
+    <text class="hrt" x="240" y="124" font-size="20" style="animation-delay:1.5s">💗</text>
+   </g>
+
+   <g class="g night">
+    <rect width="400" height="300" fill="url(#ns)"/>
+    <circle cx="200" cy="100" r="90" fill="url(#gl)"/>
+    <path d="M200 70l8 20 22 2-17 14 6 22-19-12-19 12 6-22-17-14 22-2z" fill="#fff4c9"/>
+    <circle class="tw" cx="60" cy="50" r="2" fill="#fff"/><circle class="tw" cx="120" cy="120" r="1.6" fill="#fff" style="animation-delay:.6s"/>
+    <circle class="tw" cx="310" cy="60" r="2" fill="#fff" style="animation-delay:1s"/><circle class="tw" cx="350" cy="140" r="1.6" fill="#fff" style="animation-delay:.3s"/>
+    <circle class="tw" cx="90" cy="190" r="1.8" fill="#fff" style="animation-delay:1.4s"/><circle class="tw" cx="280" cy="200" r="1.6" fill="#fff" style="animation-delay:.9s"/>
+    <path d="M0 260q100-40 200-10t200-20v70H0z" fill="#150c30"/>
+   </g>
+
+   <g class="g dawn">
+    <rect width="400" height="300" fill="url(#dw)"/>
+    <circle cx="200" cy="250" r="110" fill="url(#gl)"/>
+    <circle cx="200" cy="262" r="62" fill="#ffd58a"/>
+    <path d="M0 262h400v40H0z" fill="#3a1b6b"/>
+    <text class="tw" x="170" y="150" font-size="34">💗</text>
+   </g>
+  </svg>
+
+  <div class="tcap te" id="cap"></div>
+  <div class="dots" id="dots"></div>
+  <div class="ctl">
+   <button class="btn ghost" id="prev" aria-label="Previous">⏮</button>
+   <button class="btn" id="pp" aria-label="Pause">⏸</button>
+   <button class="btn ghost" id="nx" aria-label="Next">⏭</button>
+   <button class="btn ghost" id="vb">🔊 తెలుగు వాయిస్</button>
+  </div>
+  <p id="vn" class="hide">ఈ ఫోన్‌లో తెలుగు వాయిస్ లేనట్టు ఉంది. అక్షరాలు చదువుకో.</p>
+  <video id="vid" class="hide" controls playsinline preload="metadata"></video>
+  <div id="aud" class="hide"><p>నా గొంతులో నీ కోసం 🎧</p><audio id="au" controls preload="none" style="width:100%;max-width:420px"></audio></div>
+  <div id="end" class="hide">
+   <p style="font-size:22px;color:var(--gold)">— <span id="sig"></span></p>
+   <button class="btn" id="again">మళ్ళీ చూడు</button> <a class="btn ghost" href="index.html">🏠 Menu</a>
+  </div>
+ </div>
+
+</div></section>
+<script src="config.js"></script>
+<script src="fx.js"></script>
+<script>
+const S=C.story,svg=$('#st'),cap=$('#cap'),dots=$('#dots');let i=0,play=true,timer,voiceOn=false;
+S.forEach(()=>dots.appendChild(document.createElement('i')));
+$('#sig').textContent=C.him;
+if(C.video){const v=$('#vid');v.src=C.video;v.classList.remove('hide');$('#stage').classList.add('hasvid')}
+if(C.voice){$('#au').src=C.voice;$('#aud').classList.remove('hide')}
+function teVoice(){return(speechSynthesis.getVoices()||[]).find(v=>v.lang.toLowerCase().startsWith('te'))}
+function say(t){if(!voiceOn||!('speechSynthesis' in window))return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='te-IN';const v=teVoice();if(v)u.voice=v;u.rate=.85;speechSynthesis.speak(u)}
+function stop(){clearTimeout(timer);'speechSynthesis' in window&&speechSynthesis.cancel()}
+function showS(n){
+ clearTimeout(timer);i=Math.max(0,Math.min(S.length-1,n));
+ svg.setAttribute('data-s',i+1);cap.style.opacity=0;
+ setTimeout(()=>{cap.textContent=S[i];cap.style.opacity=1},250);
+ [...dots.children].forEach((d,k)=>d.classList.toggle('on',k===i));
+ say(S[i]);
+ const last=i===S.length-1;$('#end').classList.toggle('hide',!last);
+ if(last){spark(innerWidth/2,innerHeight/3,30,{e:['💗','✨'],s:4,up:2,r:5});return}
+ if(play)timer=setTimeout(()=>showS(i+1),5200+S[i].length*55);
+}
+$('#go').onclick=()=>{$('#gate').classList.add('hide');$('#stage').classList.remove('hide');if(C.video){$('#end').classList.remove('hide');$('#vid').play().catch(()=>{});return}showS(0)};
+$('#nx').onclick=()=>showS(i+1);$('#prev').onclick=()=>showS(i-1);
+$('#again').onclick=()=>{if(C.video){const v=$('#vid');v.currentTime=0;v.play().catch(()=>{});return}play=true;$('#pp').textContent='⏸';showS(0)};
+$('#pp').onclick=()=>{play=!play;$('#pp').textContent=play?'⏸':'▶️';if(play)showS(i);else stop()};
+$('#vb').onclick=()=>{voiceOn=!voiceOn;$('#vb').textContent=voiceOn?'🔇 వాయిస్ ఆఫ్':'🔊 తెలుగు వాయిస్';
+ if(voiceOn){if(!('speechSynthesis' in window)||(speechSynthesis.getVoices().length&&!teVoice()))$('#vn').classList.remove('hide');say(S[i])}else{stop();if(play&&i<S.length-1)timer=setTimeout(()=>showS(i+1),4000)}};
+addEventListener('pagehide',stop);
+</script>
+</body>
+</html>

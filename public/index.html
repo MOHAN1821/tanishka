@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tanishka, oka chinna vishayam 💌</title>
+<meta name="theme-color" content="#1a0f33">
+<meta property="og:title" content="Tanishka, ee message nuvvu chudali 💌">
+<meta property="og:description" content="Oka chinna sorry, oka pedda prema.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💌</text></svg>">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<a id="home-btn" class="btn homebtn hide" href="#home">🏠 Menu</a>
+
+<section class="view on" id="home"><div class="in">
+ <h1><span class="her"></span> 💗</h1>
+ <p>Nee mood ki ela nachite adhi open chey. Anni nee kosame.</p>
+ <p class="fine" id="dobline"></p>
+ <div class="grid">
+  <a class="card menu" href="#r1"><span class="big">🫧</span>Sorry<small>Sorry bubbles pagalagottu</small></a>
+  <a class="card menu" href="#r2"><span class="big">🎂</span>Happy Birthday<small>Late ga, kani manasu nundi</small></a>
+  <a class="card menu" href="#r3"><span class="big">💔</span>Naa tappulu<small>Nenu chesina wrong behaviour</small></a>
+  <a class="card menu" href="#r4"><span class="big">🧺</span>Sorry game<small>Sorries pattuko</small></a>
+  <a class="card menu" href="#r5"><span class="big">🤞</span>Naa promises<small>Kopam meter + promises</small></a>
+  <a class="card menu" href="#r6"><span class="big">✨</span>Nuvvu enduku special<small>Scratch chesi chudu</small></a>
+  <a class="card menu wide" href="#r7"><span class="big">💬</span>Matladukundam<small>Nee ishtam ela unte ala</small></a>
+  <a class="card wide" href="amma.html"><span class="big">🕊️</span>Nee amma gnapakalu<small>Nuvvu ready ga unnappudu matrame</small></a>
+ </div>
+<p class="fine" style="margin-top:22px"><span id="who"></span> <a href="/api/logout" style="color:var(--gold)">Logout</a></p>
+</div></section>
+
+<section class="view" id="r1"><div class="in">
+ <h2>Sorry bubbles 🫧</h2>
+ <p>Prathi sorry ni tap chesi pagalagottu. Leda phone ki oodu.</p>
+ <div class="field" id="field"></div>
+ <div class="cap" id="bcap">0 / 12</div>
+ <button class="btn ghost" id="blow1">🌬️ Phone ki oodu (mic)</button>
+</div></section>
+
+<section class="view" id="r2"><div class="in">
+ <h1><span id="bdTitle">Happy Birthday</span>,<br><em class="her"></em> 🎂</h1>
+ <p>Late ga cheptunnanu, kani naa manasulo ee wish nee birthday roje modalaindi.</p>
+ <div class="wish" id="wish">Tap chey 👇</div>
+ <button class="btn" id="wnext">Inkoka wish 🎁</button>
+ <div class="cakebox" style="margin-top:30px"><div class="candles" id="cand"></div><div class="cakebase"></div></div>
+ <p class="fine" id="cmsg">Candles aarpu, tarvata wish chesuko</p>
+ <button class="btn ghost" id="blow2">🌬️ Phone ki oodu (mic)</button>
+</div></section>
+
+<section class="view" id="r3"><div class="in">
+ <h2>Naa tappulu 💔</h2>
+ <div class="letter" id="letter"></div>
+ <div id="chg" class="hide"><h2 style="margin-top:26px;font-size:32px">Nenu ela marutanu</h2><ul class="list" id="chglist" style="cursor:default"></ul></div>
+</div></section>
+
+<section class="view" id="r4"><div class="in">
+ <h2>Sorry catch game 🧺</h2>
+ <p>Basket ni jaripi 💗 pattuko. ⛈️ kopam meghalu tagalakunda chusuko!</p>
+ <div class="hud" id="gs">0 / 12</div>
+ <canvas id="gc"></canvas>
+ <button class="btn ghost hide" id="gagain">Malli aadudam</button>
+</div></section>
+
+<section class="view" id="r5"><div class="in">
+ <h2>Nee kopam meter 😤</h2>
+ <p>Slider ni left ki lagu. Prathi sorry ki oka point taggali.</p>
+ <div class="meter" id="mval">100%</div>
+ <input type="range" id="slider" min="0" max="100" value="100" aria-label="Anger meter">
+ <p id="mmsg">Entha kopam undo naku telusu… 🥲</p>
+ <div class="sec"><h2>Naa promises</h2><p>Prathi dhaanini tick chey.</p><ul class="list" id="prom"></ul></div>
+</div></section>
+
+<section class="view" id="r6"><div class="in">
+ <h2>Oka secret ✨</h2>
+ <p>Vella tho scratch chey.</p>
+ <div class="scwrap"><div class="rv">Nuvvu leka nenu incomplete,<br><span class="her"></span> 💗</div><canvas id="sc"></canvas></div>
+ <div class="sec"><h2>Nenu ninnu enduku istapaduthanu</h2><div class="grid" id="mem"></div></div>
+</div></section>
+
+<section class="view" id="r7"><div class="in">
+ <h2>Matladukundam 💬</h2>
+ <p>Nuvvu comfortable ga undali. Nee ishtam ela unte ala, edi choose chestavo cheppu.</p>
+ <div class="grid" id="talk"></div>
+ <div id="treply"></div>
+ <div class="sec"><h2>Last question 🌹</h2>
+  <p>Nannu forgive chesi, malli ila nammutava?</p>
+  <div class="yn"><button class="btn" id="yes">Yes 💗</button><button class="btn ghost" id="no">No</button></div></div>
+</div></section>
+
+<section class="view" id="thanks"><div class="in">
+ <span class="big" style="font-size:64px">🥹💞</span>
+ <h1>Thank you,<br><em class="her"></em></h1>
+ <p>Malli chance ichinanduku. Ee roju nundi prathi birthday, prathi roju, nee kosame.</p>
+ <p style="font-family:var(--serif);font-size:28px;color:var(--gold)">Love you always, <span class="him"></span> ♾️</p>
+ <a class="btn hide" id="wa" target="_blank" rel="noopener">Naku reply ivvu 💬</a><br>
+ <a class="btn ghost" href="#home">🏠 Menu</a>
+</div></section>
+
+<script src="config.js"></script>
+<script src="fx.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
